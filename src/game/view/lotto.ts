@@ -153,7 +153,7 @@ export class LottoView extends View {
     const spacingX = 100;
     const spacingY = 100;
     const rows = 7;
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 59; i++) {
       const row = Math.floor(i / rows);
       const col = i % rows;
 
