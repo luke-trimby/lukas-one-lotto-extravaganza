@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "FredokaOne";
+  src: url("../font/FredokaOne-Regular.ttf");
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: #1a1a1a;
+  background-size: 20px 20px;
+  font-family: Helvetica;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+#pixi-layer-container canvas {
+  margin: 0 auto;
+  display: block;
+}
+#html-layer-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+.html-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 960px;
+  height: 540px;
+  /* color: white; */
+  pointer-events: none;
+}

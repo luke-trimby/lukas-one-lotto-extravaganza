@@ -1,0 +1,3 @@
+[submodule "lib/leukus-core"]
+	path = lib/leukus-core
+	url = git@github.com:luke-trimby/leukus-core.git
